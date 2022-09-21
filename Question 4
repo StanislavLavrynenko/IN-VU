@@ -1,9 +1,0 @@
-import math
-def area(x):
-
-  #Write a Python program which accepts the radius of a circle from the user and compute the area.
-
-  S = math.pi * x**2
-  return S
-r = float(input('Введіть радіус кола: ', ))
-print('Площа кола = ', area(r))
